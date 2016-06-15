@@ -30,3 +30,4 @@ C:\Users\Kevin\Documents\GitHub\KevinHTML\LABB2\LABB2\Inlamning2\Inlamning1\bin\
 C:\Users\Kevin\Documents\GitHub\KevinHTML\LABB2\LABB2\Inlamning2\Inlamning1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Kevin\Documents\GitHub\KevinHTML\LABB2\LABB2\Inlamning2\Inlamning1\obj\Debug\Inlamning1.dll
 C:\Users\Kevin\Documents\GitHub\KevinHTML\LABB2\LABB2\Inlamning2\Inlamning1\obj\Debug\Inlamning1.pdb
+C:\Users\Kevin\Documents\GitHub\KevinHTML\LABB2\LABB2\Inlamning2\Inlamning1\obj\Debug\Inlamning1.csprojResolveAssemblyReference.cache

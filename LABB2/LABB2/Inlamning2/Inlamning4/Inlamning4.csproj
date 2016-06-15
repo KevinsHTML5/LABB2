@@ -94,10 +94,36 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\maldives.jpg" />
+    <Content Include="Images\maldives10.jpg" />
+    <Content Include="Images\maldives11.jpg" />
+    <Content Include="Images\maldives12.jpg" />
+    <Content Include="Images\maldives13.jpg" />
+    <Content Include="Images\maldives14.jpg" />
+    <Content Include="Images\maldives15.jpg" />
+    <Content Include="Images\maldives2.jpg" />
+    <Content Include="Images\maldives3.jpg" />
+    <Content Include="Images\maldives4.jpg" />
+    <Content Include="Images\maldives5.jpg" />
+    <Content Include="Images\maldives6.jpg" />
+    <Content Include="Images\maldives7.jpg" />
+    <Content Include="Images\maldives8.jpg" />
+    <Content Include="Images\maldives9.jpg" />
+    <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <None Include="scripts\jquery-2.0.0.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-2.0.0.js" />
+    <Content Include="scripts\jquery-2.0.0.min.js" />
+    <Content Include="scripts\jquery-2.0.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,10 +134,14 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Styles\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,40 @@
+﻿body {
+background-image: url('../Images/maldives13.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+#banner{
+width: 100%;
+height: 200px;
+background-color: blue;
+    
+}
+#main{
+margin: 0 auto;
+height: 700px;
+width: 1400px;
+background-color: gray;
+opacity: 0.8;
+}
+aside{
+    float: left;
+}
+ul {
+list-style: none;
+background-color: gray;
+height: auto;
+width: auto;
+padding: 0;
+}
+
+li {
+border-top: 2px gray solid;
+transition: all .5s ease-in-out;
+}
+  .toprow {
+position: absolute;
+left: 0;
+width: 100%;
+padding: 0;
+background: none;
+}

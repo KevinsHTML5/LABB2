@@ -1,0 +1,184 @@
+﻿#whatami:before{
+        content:"I'm a computer!";
+    }
+body {
+    background-color: green;
+}
+#frame{
+    background-color: white;
+    height: 700px;
+    width: 1400px;
+    border-radius: 50px;
+    
+}
+#screen{
+  position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 1350px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: gray;
+    background-image: url('../Images/Samsung.jpg');
+}
+.ikoner{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    margin: 7px;
+    float: left;
+}
+#homeButton{
+    position: absolute;
+    left: 710px;
+    top: 620px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    border: 5px #240606;
+}
+#insideHomeButton{
+        width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    top: 8.9px;
+    left: 8.9px;
+}
+.postit {
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    z-index: 1;
+    font-size: x-large;
+    overflow: hidden;
+    font-family: Elephant;
+    height: 120px;
+    width: 170px;
+    background-color: green;
+    box-shadow: 5px 5px 5px;
+}
+#postit1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+     transform: rotate(-12deg);
+}
+
+    #postit1:hover {
+        z-index:2;
+        position: absolute;
+        top: 55px;
+        left: 30px;
+        -moz-transition: .5s ease;
+        -o-transition: .5s ease;
+        -webkit-transition:  .5s ease;
+        transition: .5s ease;
+        
+    }
+
+#postit2 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+     transform: rotate(7deg);
+}
+
+    #postit2:hover {
+        z-index:2;
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    #postit3 {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+     transform: rotate(3deg);
+}
+
+    #postit3:hover {
+        z-index:2;
+        position: absolute;
+        top: 150px;
+        left: 120px;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    .postit:hover {
+    height: 250px;
+    width: 170px;
+    background-color: aquamarine;
+   
+  
+  
+    -moz-animation: rotate 3s infinite;
+    -o-animation: rotate 3s infinite;
+    -webkit-animation: rotate 3s infinite;
+    animation: rotate 3s infinite;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+
+    #whatami:before {
+        content: "I'm a tablet!";
+    }
+
+    #frame {
+        background-color: white;
+        height: 700px;
+        width: 600px;
+        border-radius: 50px;
+    }
+
+    #screen {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 550px;
+        height: 500px;
+        border: 2px solid black;
+        background-color: gray;
+        background-image: url('../Images/Samsung.jpg');
+    }
+
+    @media only screen and (max-width: 480px) {
+        body {
+            background-color: red;
+        }
+
+        #whatami:before {
+            content: "I'm a smartphone!";
+        }
+
+        #frame {
+            background-color: white;
+            height: 700px;
+            width: 350px;
+            border-radius: 50px;
+        }
+
+        #screen {
+            position: absolute;
+            top: 100px;
+            left: 30px;
+            width: 300px;
+            height: 500px;
+            border: 2px solid black;
+            background-color: gray;
+            background-image: url('../Images/Samsung.jpg');
+        }
+    }
+}
