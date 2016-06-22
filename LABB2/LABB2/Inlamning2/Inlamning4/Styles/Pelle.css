@@ -1,0 +1,424 @@
+﻿body {
+    background-image: url('../Images/maldives3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    background-color: gray;
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+.col-xs-10
+ {
+    align-self: ;
+}
+li {
+    border-top: 2px gray solid;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: darkgray;
+}
+
+    li:hover .lank {
+        background-color: darkgray;
+    }
+
+.menuhead {
+    font-size: 90px;
+    color: gold;
+}
+
+.lank {
+    color: black;
+    transition: all .5s ease-in-out;
+    font-size: 80px;
+    list-style: none;
+    text-align: center;
+    opacity: .8;
+    text-decoration: none;
+}
+
+
+    .lank:hover {
+        background-color: gray;
+        border-radius: 10px;
+        animation: olle 1s infinite;
+        text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+    }
+
+h2, .dummy {
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(128, 128, 128,.9);
+    color: black;
+}
+
+header {
+    height: 120px;
+    background-color: black;
+}
+
+footer {
+    font-size: 100%;
+    color: white;
+    margin-top: 30px;
+    border-top: 10px black;
+    background-color: black;
+    text-align: center;
+}
+
+.log {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#stars {
+    margin-left: 20px;
+    position: absolute;
+    top: 5px;
+    color: gold;
+    animation: shine 1s infinite;
+}
+
+@keyframes shine {
+    50% {
+        margin-left: 10px;
+        text-shadow: 5px 5px 5px silver;
+        font-size: 150%;
+    }
+}
+
+
+
+.eye {
+    margin: 20px 0px 20px 0px;
+    width: 50%;
+    z-index: 3;
+}
+
+@keyframes olle {
+    50% {
+        color: red;
+    }
+}
+
+.grid-button {
+    z-index: 255;
+    position: fixed;
+    top: 160px;
+    left: 40px;
+    padding: 20px;
+}
+
+.grid.grid {
+    color: white;
+    opacity: .7;
+}
+
+    .grid.grid :hover {
+        color: gray;
+        opacity: .9;
+    }
+
+.grid {
+    margin: 20px;
+    z-index: 155;
+    background-color: white;
+    color: #FFF;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .grid.open {
+        box-shadow: -35px -35px, 0px -35px, 35px -35px, -35px 0px, 35px 0px, -35px 35px, 0px 35px, 35px 35px;
+    }
+
+    .grid.close {
+        box-shadow: -24px 0px, -48px 0px, 0px -24px, 0px 48px, 0px -48px, 0px 24px, 48px 0px, 24px 0px;
+        transform: rotate(45deg);
+    }
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 20px;
+    position: fixed;
+    left: -500%;
+    top: 10%;
+    transition: all .5s ease-in-out;
+    z-index: 4;
+}
+
+    .menu.open {
+    }
+
+
+    .menu.close {
+      
+        margin-left: 9%;
+        margin-top: 10%;
+        left: 50px;
+        opacity: 1;
+    }
+
+        .menu.close li {
+            height: 100px;
+            margin-bottom: 0;
+        }
+/*.......................................................*/
+
+/*Ipad normal hold*/
+@media only screen and (min-device-width: 600px) {
+    .menuhead {
+        display: none;
+    }
+
+    .menu {
+        position:fixed;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 70%;
+        border-radius: 30px 30px 30px 30px;
+        font-size: 50%;
+      
+        top: 10%;
+        transition: all .5s ease-in-out;
+        z-index: 4;
+    }
+
+        .menu.close {
+            position: fixed;
+            top: 10%;
+            left: 40px;
+            left: 0;
+            opacity: 1;
+        }
+/*Tiltad Phone*/
+        @media only screen and (max-device-width:700px) and (max-device-height: 450px) {
+    .grid-button {
+        z-index: 255;
+        position: absolute;
+        top: 160px;
+        left: 20px;
+        padding: 20px;
+    }
+      .menu.close {
+        position:absolute;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 70%;
+        border-radius: 30px 30px 30px 30px;
+        font-size: 50%;
+      
+        top: 10%;
+        transition: all .5s ease-in-out;
+        z-index: 4;
+    }
+}
+    /*.......................................................*/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        header {
+            margin-bottom: 15%;
+        }
+    }
+    /*.......................................................*/
+    @media only screen and (min-device-width : 1024px) {
+        header {
+            margin-bottom: 15%;
+        }
+    }
+
+    /*.......................................................*/
+    @media only screen and (min-width : 1025px) {
+
+
+
+        .lank {
+            transition: all .5s ease-in-out;
+            margin: 0;
+            font-size: 27px;
+            list-style: none;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+            border-radius: 0;
+            background-color: gray;
+            color: black;
+            opacity: .8;
+        }
+
+        header {
+            margin-bottom: 7%;
+        }
+
+        .menuhead {
+            display: none;
+        }
+
+        .grid, .grid-button {
+            display: none;
+        }
+
+        li {
+            background-color: gray;
+            margin-top: 2%;
+            transition: all .5s ease-in-out;
+        }
+
+            li:hover {
+                background-color: darkgray;
+            }
+
+                li:hover .lank {
+                    background-color: darkgray;
+                }
+
+        a {
+            font-size: 60%;
+        }
+
+        .toprow {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            background: none;
+        }
+
+
+        .lank:hover {
+            border-radius: 0px;
+            height: 70px;
+            background-color: darkgray;
+        }
+
+            .lank:hover a {
+                animation: olle 1s infinite;
+                text-decoration: none;
+                text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+            }
+
+        .dummy {
+            margin-left: 20%;
+        }
+
+
+        .dummyhead {
+            padding-left: 10%;
+            color: black;
+        }
+
+        @media only screen and (min-width : 1333px) {
+            .lank {
+                transition: all .5s ease-in-out;
+                margin: 0;
+                font-size: 40px;
+                list-style: none;
+                text-align: center;
+                height: 100px;
+                width: 100%;
+                border-radius: 0;
+                background-color: gray;
+                color: black;
+                opacity: .8;
+            }
+        }
+    }
+     @media only screen and (min-device-width : 900px) and (max-device-height : 800px) {
+/*........................................*/
+  .lank {
+            transition: all .5s ease-in-out;
+            margin: 0;
+           
+            font-size: 27px;
+            list-style: none;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+            border-radius: 0;
+            background-color: gray;
+            color: black;
+            opacity: .8;
+        }
+
+        header {
+            margin-bottom: 7%;
+        }
+
+        .menuhead {
+            display: none;
+        }
+
+        .grid, .grid-button {
+            display: none;
+        }
+
+        li {
+            width:200px;
+            background-color: gray;
+            margin-top: 2%;
+            transition: all .5s ease-in-out;
+        }
+
+            li:hover {
+                background-color: darkgray;
+            }
+
+                li:hover .lank {
+                    background-color: darkgray;
+                }
+ul{
+    margin-top:30px;
+}
+        a {
+            font-size: 60%;
+        }
+
+        .toprow {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            background: none;
+        }
+
+
+        .lank:hover {
+            border-radius: 0px;
+            height: 70px;
+            background-color: darkgray;
+        }
+
+            .lank:hover a {
+                animation: olle 1s infinite;
+                text-decoration: none;
+                text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+            }
+
+        .dummy {
+            margin-left: 20%;
+        }
+
+
+        .dummyhead {
+            padding-left: 10%;
+            color: black;
+        }
+       
+    }
+}

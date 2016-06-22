@@ -1,0 +1,51 @@
+﻿body {
+ 
+}
+.flexbox{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.shortcut {
+    border: 2px solid gray;
+    height: 60px;
+    font-size: 350%;
+    background-color: lightblue;
+    text-align: center;
+    transition:background-color 1s;
+}
+.shortcut:hover{
+     background-color: blue;
+}
+
+.h2photos {
+    
+    text-align: left;
+    font-size: 300%;
+    width:100%; 
+    border-bottom: solid darkgray 5px;
+}
+
+.totop {
+    border:solid black 2px;
+   
+    font-size: 150%;
+    text-align:center;
+    background-color: beige;
+    border-radius: 50%;
+}
+
+
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+     header{
+       margin-bottom:20%;
+    }
+}
+@media only screen and (min-width : 1224px) {
+     header{
+       margin-bottom:10%;
+    }
+}

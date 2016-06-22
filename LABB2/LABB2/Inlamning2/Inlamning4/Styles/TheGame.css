@@ -1,0 +1,199 @@
+﻿body {
+}
+#lbdiver{
+    margin-left:4%;
+}
+label{
+   
+    text-align:center;
+    border-radius:20px;
+   font-size:100%;
+    width:20%;
+    background-color:gray;
+    box-shadow:10px 10px 5px black;
+}
+input{
+     
+}
+#tank {
+    height: 800px;
+    position: relative;
+}
+
+
+#backcontainer, #fishcontainer {
+    position: absolute;
+    margin: 0;
+    border: 20px solid lightblue;
+    height: 800px;
+    width: 100%;
+    z-index: 2;
+}
+
+#fishcontainer {
+    z-index: 4;
+}
+
+#tankback {
+    display: none;
+}
+.fish{
+    position:absolute;
+}
+.diver{
+ width:15%;
+    top:5%;
+    left:80%;
+   animation:13s diverswims infinite;
+}
+#diverCheck:checked ~ #iddiver{
+     animation:13s diverswim infinite;
+}
+
+.corral{
+    top:70%;
+    left:55%;
+    z-index:4;
+}
+
+.muray{
+width:15%;
+    top:80%;
+    left:50%;
+    z-index:10;  
+    animation:murayswim 13s infinite;
+}
+.shark{
+    width:15%;
+    top:80%;
+    left:50%;
+    transform:rotateY(180deg);
+  animation: 5s infinite;
+}
+.sunfish {
+    width: 10%;
+    top: 50%;
+    left: 10%;
+    animation:  15s infinite;
+}
+
+
+#SharkCheck:checked ~ #idshark{
+     animation:5s sharkfish infinite;
+}
+#SunCheck:checked ~ #idsunfish{
+     animation:5s sunfishswim infinite;
+}
+#MurayCheck:checked ~ #idmuray{
+     animation:13s murayswims infinite;
+}
+
+
+@keyframes murayswim{
+    25%{
+             transform:rotateY(0);
+             left:20%;
+    }
+    45%{
+        transform:rotateY(180deg);
+    }
+    50%{
+        top:20%;
+    }
+    65%{
+        transform:rotateY(180deg);
+    }
+    75%{
+        left:80%;
+         
+    }
+    80%{
+         
+    }
+
+}
+@keyframes murayswims{
+    5%{
+        transform:rotateY(180deg);
+    }
+
+    25%{
+             transform:rotateY(0);
+             left:80%;
+    }
+    45%{
+      
+    }
+    50%{
+        top:20%;
+    }
+    65%{
+       
+    }
+    75%{
+        left:20%;
+         
+    }
+    80%{
+          transform:rotateY(180deg);
+    }
+
+}
+@keyframes sharkfish {
+    25% {
+        top: 50%;
+         transform: rotateY(0); 
+    }
+
+    45% {
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 20%;
+       
+    }
+
+    75% {
+        
+        transform: rotateY(180deg);
+    }
+
+}
+@keyframes sunfishswim {
+    25% {
+        top: 20%;
+        transform: rotateY(0) rotate(-360deg);
+    }
+
+    45% {
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 80%;
+       
+    }
+
+    75% {
+        top: 70%;
+        transform: rotateY(180deg);
+    }
+
+}
+
+@keyframes diverswim{
+    25%{
+         transform:rotateY(0);
+    }
+    48%{
+        transform:rotateY(180deg);
+    }
+    50%{
+        left:10%;
+     
+    }
+    75%{
+         transform:rotateY(180deg);
+    }
+}
