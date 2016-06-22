@@ -66,7 +66,7 @@ body {
     position: absolute;
     top: 50px;
     left: 20px;
-     transform: rotate(-12deg);
+    transform: rotate(-12deg);
 }
 
     #postit1:hover {
@@ -74,10 +74,10 @@ body {
         position: absolute;
         top: 55px;
         left: 30px;
-        -moz-transition: .5s ease;
-        -o-transition: .5s ease;
-        -webkit-transition:  .5s ease;
-        transition: .5s ease;
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:top;
         
     }
 
@@ -93,10 +93,10 @@ body {
         position: absolute;
         top: 200px;
         left: 70px;
-        -moz-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease;
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:top;
     }
     #postit3 {
     position: absolute;
@@ -110,10 +110,10 @@ body {
         position: absolute;
         top: 150px;
         left: 120px;
-        -moz-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease;
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:top;
     }
     .postit:hover {
     height: 250px;
@@ -127,6 +127,16 @@ body {
     -webkit-animation: rotate 3s infinite;
     animation: rotate 3s infinite;
 }
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-3deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-3deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-3deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-3deg)}
+
 @media only screen and (max-width: 768px) {
     body {
         background-color: yellow;
