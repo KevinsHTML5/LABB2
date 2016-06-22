@@ -96,6 +96,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="GameScripts\JavaScript.js" />
+    <Content Include="GameScripts\Snapshot.js" />
+    <Content Include="GameScripts\TheGame.js" />
     <Content Include="Images\maldives.jpg" />
     <Content Include="Images\maldives10.jpg" />
     <Content Include="Images\maldives11.jpg" />
@@ -111,6 +114,18 @@
     <Content Include="Images\maldives7.jpg" />
     <Content Include="Images\maldives8.jpg" />
     <Content Include="Images\maldives9.jpg" />
+    <Content Include="Images\TheGame\Animated-moving-dolphin-swimming.gif" />
+    <Content Include="Images\TheGame\clownfish.png" />
+    <Content Include="Images\TheGame\diver-small.png" />
+    <Content Include="Images\TheGame\IMG_2177.JPG" />
+    <Content Include="Images\TheGame\IMG_2179.JPG" />
+    <Content Include="Images\TheGame\jellyfish-293969.png" />
+    <Content Include="Images\TheGame\muray.png" />
+    <Content Include="Images\TheGame\sample_coral_reef_1_ns.gif" />
+    <Content Include="Images\TheGame\SharkShark.png" />
+    <Content Include="Images\TheGame\sunfish.gif" />
+    <Content Include="Images\TV.png" />
+    <Content Include="Images\tv2.png" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -119,6 +134,11 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="scripts\jquery-2.0.0.intellisense.js" />
+    <Content Include="Pages\Contact.html" />
+    <Content Include="Pages\Contact2.html" />
+    <Content Include="Pages\Photos.html" />
+    <Content Include="Pages\TheGame.html" />
+    <Content Include="Pages\TV.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-2.0.0.js" />
@@ -134,15 +154,18 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Styles\StyleSheet.css" />
+    <Content Include="Styles\Contact.css" />
+    <Content Include="Styles\FlippPhoto.css" />
+    <Content Include="Styles\Pelle.css" />
+    <Content Include="Styles\Photos.css" />
+    <Content Include="Styles\TheGame.css" />
+    <Content Include="Styles\TV.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

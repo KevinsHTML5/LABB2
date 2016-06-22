@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RocResort</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kevin Karlberg" />
+    <meta name="description" content="Welcome to the wonderful world of the Maldives" />
+    <meta name="keywords" content="maldves,island,sun,sand,holliday,dream,paradise" />
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Styles/Pelle.css" rel="stylesheet" />
+    <link href="../Styles/TheGame.css" rel="stylesheet" />
+    <script src="../GameScripts/JavaScript.js"></script>
+    <script src="../GameScripts/TheGame.js"></script>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <h1 class="col-xs-10">
+                A Maldives Hotel
+            </h1>
+        </div>
+        <div class="grid-button row">
+            <span class="grid open col-xs-12"></span>
+        </div>
+        <nav class="row">
+            <ul class="menu  toprow">
+                <li class="col-md-11 col-xs-12 menuhead">Menu</li>
+                <li class="col-md-2  col-xs-12 "><a href="../Index.html"><span class="lank">Home</span></a></li>
+                <li class="col-md-2  col-xs-12 "><a href="TV.html"><span class="lank">Tv-Show</span></a></li>
+                <li class="col-md-2  col-xs-12 "><a href="Photos.html"><span class="lank">Photos</span></a></li>
+                <li class="col-md-3  col-xs-12 "><a href="TheGame.html"><span class="lank">Maldive game</span></a></li>
+                <li class="col-md-2  col-xs-12 "><a href="Contact.html"><span class="lank">Contact us</span></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <img class="img-responsive" id="tankback" src="../Images/TheGame/IMG_2177.jpg" alt="dw" />
+    <div class="container" id="tank">
+        <div class="row ">
+            <canvas id="backcontainer" class="col-xs-12">
+                <!-- Fish tank background! WIth canvas Repainted tankback with JS -->
+            </canvas>
+
+            <div id="fishcontainer">
+                <!-- Labels and Inputs -->
+
+
+                <label id="lbdiver" for="diverCheck">Diver</label>
+                <input type="checkbox" id="diverCheck" />
+
+                <label for="MurayCheck">Muray (Move Clock)</label>
+                <input type="checkbox" id="MurayCheck" />
+
+
+
+                <label for="SharkCheck">Shark</label>
+                <input type="checkbox" id="SharkCheck" />
+
+                <label for="SunCheck">Clown fish</label>
+                <input type="checkbox" id="SunCheck" />
+
+                <!-- Images -->
+                <img class="img-responsive fish diver" id="iddiver" src="../Images/TheGame/diver-small.png" alt="wsd" />
+
+                <img class="img-responsive sunfish fish" id="idsunfish" src="../Images/TheGame/clownfish.png" alt="Clownfish" />
+
+
+                <img class="img-responsive muray fish" id="idmuray" src="../Images/TheGame/muray.png" alt="wsd" />
+
+
+
+                <img class="img-responsive fish shark" id="idshark" src="../Images/TheGame/SharkShark.png" alt="wsd" />
+
+                <img class="img-responsive fish corral" src="../Images/TheGame/sample_coral_reef_1_ns.gif" alt="wsd" />
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container-fluid">
+        <div class="log">Roc</div>
+        <address>
+            Random Adress
+        </address>
+        <small>Maldives Hotel &copy; 2016 Maldives</small>
+    </footer>
+</body>
+</html>

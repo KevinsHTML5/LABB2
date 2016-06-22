@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RocResort</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Hampus Lundgren" />
+    <meta name="description" content="The best resort on Maldives!" />
+    <meta name="keywords" content="maldves,island,sun,sand,holliday,dream,paradise" />
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../MoreScript/JavaScript.js"></script>
+    <link href="../Styles/Contact.css" rel="stylesheet" />
+    <link href="../Styles/Pelle.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <h1 class="col-xs-10">
+                Resort Roc
+            </h1>
+        </div>
+        <div class="grid-button row">
+            <span class="grid open col-xs-12"></span>
+        </div>
+        <nav class="row">
+            <ul class="menu  toprow">
+                <li class="col-md-11 col-xs-12 menuhead">Menu</li>
+                <li class="col-md-2  col-xs-12 "><a href="../Index.html"><span class="lank">Home</span></a></li>
+                <li class="col-md-2  col-xs-12 "><a href="TV.html"><span class="lank">Tv-Show</span></a></li>
+                <li class="col-md-2  col-xs-12 "><a href="Photos.html"><span class="lank">Photos</span></a></li>
+                <li class="col-md-3  col-xs-12 "><a href="TheGame.html"><span class="lank">Maldive game</span></a></li>
+                <li class="col-md-2  col-xs-12 "><a href="Contact.html"><span class="lank">Contact us</span></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="row">
+            <div>
+                <form class="mailform" action="Contact2.html">
+                    <fieldset>
+                        <legend>E-Mail us</legend>
+                    </fieldset>
+
+                    <table>
+                        <tr>
+                            <td>
+
+                                <label for="fname">First name</label><br />
+                                <input type="text" name="fname" id="fname" required autofocus placeholder="First name" /><br />
+                                <label for="lname">Last name</label><br />
+                                <input type="text" name="lname" id="lname" required placeholder="Last name" /><br />
+                                <label for="email">E-mail</label><br />
+                                <input type="email" name="email" id="email" required placeholder="Email@Email.com" /><br />
+                                <label for="tel">Phone-number</label><br />
+                                <input type="tel" name="tel" id="tel" required placeholder="PhoneNumber" /><br />
+
+                                <label for="msg">Message</label><br />
+                                <textarea required size="25" name="msg" id="msg" placeholder="Write your message here" rows="3" cols="30"></textarea><br />
+
+
+                                <fieldset>
+                                    <legend>Rate This Page</legend>
+                                    <label class="lbsmily" id="lbhappy" for="happy">
+                                    </label>
+                                    <input type="radio" typeof="smily" required name="smily" value="smily" id="happy" />
+
+
+                                    <label class="lbsmily" id="lbnormal" for="normal">
+
+                                    </label>
+
+
+                                    <input type="radio" typeof="smily" required name="smily" value="smily" id="normal" />
+
+
+                                    <label class="lbsmily" id="lbsad" for="sad">
+
+                                    </label>
+
+                                    <input type="radio" typeof="smily" required name="smily" value="smily" id="sad" />
+                                </fieldset>
+
+
+                                <div class="smily">
+
+                                </div>
+                                <button id="Mailbutton" type="submit">Send</button>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+
+            </div>
+
+
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="log">Roc</div>
+        <address>
+            Random Adress
+        </address>
+        <small>A Maldives Hotel &copy; 2016 Maldives</small>
+    </footer>
+</body>
+</html>
