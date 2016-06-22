@@ -22,8 +22,8 @@
 }
 
 .front {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     backface-visibility:hidden;
     overflow:hidden;
@@ -43,10 +43,8 @@
 .picture:hover{
     
       transform: rotateY(180deg)  rotateX(360deg);
-        box-shadow: 50px 50px 200px gold,
-                   -50px -50px 200px gold, 
-                    50px -50px 200px gold,
-                   -50px 50px 200px gold;
+        box-shadow: 50px 50px 200px gold;
+
 
 }
 @media only screen and (min-width : 1090px) {

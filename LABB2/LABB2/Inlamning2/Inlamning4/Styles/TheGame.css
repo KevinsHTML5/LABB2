@@ -47,7 +47,7 @@ input{
    animation:13s diverswims infinite;
 }
 #diverCheck:checked ~ #iddiver{
-     animation:13s diverswim infinite;
+     animation:3s diverswim infinite;
 }
 
 .corral{
